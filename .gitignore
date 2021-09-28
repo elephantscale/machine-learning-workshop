@@ -16,11 +16,6 @@ __pycache__/
 ## Jupyter Notebook
 .ipynb_checkpoints
 
-## assembled
-0-testing
-basics
-exploration
-python-analysis
 
 # IntelliJ
 .idea/
