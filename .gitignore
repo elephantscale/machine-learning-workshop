@@ -6,7 +6,7 @@ metastore_db/
 not-using/
 data
 *.sw*
-*.csv
+*.csv*
 
 
 ## Python
