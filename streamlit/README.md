@@ -1,5 +1,7 @@
 # Streamlit Demos
 
+[Streamlit](https://streamlit.io/) is an amazing library to rapidly develop data apps!
+
 ## Install Streamlit
 
 ```bash
