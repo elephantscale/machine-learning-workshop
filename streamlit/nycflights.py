@@ -24,8 +24,11 @@ flights_all = pd.read_csv(data_location)
 flights = flights_all.sample(10000)
 
 dest = flights['dest'].unique()
-dest_select = st.multiselect("Choose Destination", dest)
+# dest_select = st.select_box("Choose Destination", dest, default='ORD')
 
-flights_by_dest = flights[flights['dest'] == 'ORD']
+type(dest_select)
+flights_by_dest = flights[(flights['dest'] == 'ORD')]
 
 st.write("# Flights Data", flights_by_dest)
+
+st.bar_
