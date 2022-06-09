@@ -37,7 +37,9 @@ $   python web_service.py
 
 ## Step-5: Make a Web service request
 
-We will use `curl` as our client
+In the browswer go to : http://localhost:5000  (or adjust the port number accordingly)
+
+We can also use `curl` to make a webservice request
 
 ```bash
 $  curl 'http://localhost:5000/'
@@ -55,6 +57,14 @@ Great, web service is working
 
 Run the following request.  You can modify the parameters to test it out
 
+Go to this url in your browser
+
+```text
+http://localhost:5000/predict?Bedrooms=4&Bathrooms=2.5&SqFtTotLiving=2000&SqFtLot=8000&LandVal=500000
+```
+
+or using curl
+
 ```bash
 $   curl 'http://localhost:5000/predict?Bedrooms=4&Bathrooms=2.5&SqFtTotLiving=2000&SqFtLot=8000&LandVal=500000'
 ```
@@ -64,3 +74,10 @@ $   curl 'http://localhost:5000/predict?Bedrooms=4&Bathrooms=2.5&SqFtTotLiving=2
 Here we used [Flask web server](https://flask.palletsprojects.com/en/1.1.x/) for a small web service.  While Flask is really great for quick deployments, it is not really production strength.
 
 Look at frameworks like [gunicorn](https://gunicorn.org/) for implementing production ready systems.
+
+[Tornado](https://www.tornadoweb.org/en/stable/)
+
+## Load Testing Tools
+
+- [Jmeter](https://jmeter.apache.org/)
+- [Apache bench](https://httpd.apache.org/docs/2.4/programs/ab.html)
