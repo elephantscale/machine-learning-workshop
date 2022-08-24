@@ -1,4 +1,4 @@
-# Python Data Science Workshop
+# Machine Learning Workshop
 
 ## Running the labs
 
