@@ -77,6 +77,17 @@ Look at frameworks like [gunicorn](https://gunicorn.org/) for implementing produ
 
 [Tornado](https://www.tornadoweb.org/en/stable/)
 
+[Fast API](https://realpython.com/fastapi-python-web-apis/)
+
+## Other References
+
+[ColabCode: Deploying Machine Learning Models From Google Colab](https://towardsdatascience.com/colabcode-deploying-machine-learning-models-from-google-colab-54e0d37a7b09)
+
+[Deploy Machine Learning Web Applications with Streamlit](https://ngugijoan.medium.com/deploy-machine-learning-web-applications-with-streamlit-238b0380679d)
+
+[Deploy Machine Learning Model using Flask to Heroku — Beginners(Part 1)](https://medium.com/analytics-vidhya/deploy-machine-learning-model-using-flask-to-heroku-beginners-part-1-451b117a4c7e)
+
+
 ## Load Testing Tools
 
 - [Jmeter](https://jmeter.apache.org/)
